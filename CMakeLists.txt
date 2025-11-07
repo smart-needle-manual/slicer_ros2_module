@@ -40,11 +40,13 @@ find_package(tf2_ros REQUIRED)
 find_package(rqt_gui_cpp REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(std_srvs REQUIRED)
+
 if (USE_CISST_MSGS)
   find_package(cisst_msgs REQUIRED)
 endif ()
 
-include_directories (${urdf_INCLUDE_DIRS} ${tf2_ros_INCLUDE_DIRS} ${sensor_msgs_INCLUDE_DIRS} ${turtlesim_INCLUDE_DIRS} ${std_srvs_INCLUDE_DIRS})
+include_directories (${smart_template_interfaces_INCLUDE_DIRS} ${urdf_INCLUDE_DIRS} ${tf2_ros_INCLUDE_DIRS} ${sensor_msgs_INCLUDE_DIRS} ${turtlesim_INCLUDE_DIRS} ${std_srvs_INCLUDE_DIRS})
+ # Mariana changed this line
 
 #-----------------------------------------------------------------------------
 
@@ -104,6 +106,7 @@ set(MODULE_UI_SRCS
 set(MODULE_TARGET_LIBRARIES
   vtkSlicer${MODULE_NAME}ModuleLogic
   )
+
 
 set(MODULE_RESOURCES
   Resources/qSlicer${MODULE_NAME}Module.qrc

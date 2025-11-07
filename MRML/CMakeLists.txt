@@ -24,7 +24,9 @@ generate_ros2_nodes(
   "sensor_msgs/msg/Joy"
   "sensor_msgs/msg/JointState"
   "geometry_msgs/msg/PoseArray"
+  "geometry_msgs/msg/Point"         # Added by Mariana
   SUBSCRIBERS
+  "geometry_msgs/msg/PointStamped"  # Added by Mariana
   "geometry_msgs/msg/PoseStamped"
   "geometry_msgs/msg/TransformStamped"
   "geometry_msgs/msg/WrenchStamped"
