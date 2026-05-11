@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include <utility>
 #include <chrono>
+#include <iostream>
 
 #include <vtkTable.h>
 #include <vtkSmartPointer.h>
