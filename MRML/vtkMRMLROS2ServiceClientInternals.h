@@ -2,6 +2,7 @@
 #define __vtkMRMLROS2ServiceClientInternals_h
 
 // ROS2 includes
+#include <iostream>
 #include <rclcpp/rclcpp.hpp>
 
 #include <vtkMRMLScene.h>
