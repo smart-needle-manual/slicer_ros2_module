@@ -17,6 +17,7 @@
 #include <vtkMRMLROS2Tf2LookupNode.h>
 
 #include <regex>
+#include <iostream>
 #include <ament_index_cpp/get_package_share_directory.hpp>
 
 auto const MM_TO_M_CONVERSION = 1000.00;
