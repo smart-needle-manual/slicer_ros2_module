@@ -3,6 +3,7 @@
 #include <vtkVariant.h>
 #include <vtkStringArray.h>
 #include <vtkIntArray.h>
+#include <iostream>
 
 auto const MM_TO_M_CONVERSION = 1000.00;
 
