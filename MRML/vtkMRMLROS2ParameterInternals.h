@@ -8,6 +8,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <stdexcept>
 #include <utility>  // for std::pair
+#include <iostream>
 // Added for modified event
 #include <vtkCommand.h>
 #include <vtkMRMLROS2ParameterNode.h>
